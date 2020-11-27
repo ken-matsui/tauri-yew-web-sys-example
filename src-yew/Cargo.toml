@@ -1,0 +1,17 @@
+[package]
+name = "counter"
+version = "0.1.1"
+authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+strum = "0.20"
+strum_macros = "0.20"
+serde = "1"
+serde_derive = "1"
+yew = "0.17.4"
+js-sys = "0.3"
+wasm-bindgen = "0.2.68"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
